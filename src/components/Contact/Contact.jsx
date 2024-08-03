@@ -24,7 +24,7 @@ export const Contact = () => {
         </li>
         <li className={styles.link}>
           <img className={styles.img} src={getImageUrl("contact/mapsicon.png")} alt="Github icon" />
-          <a href="https://g.co/kgs/9ELJorN" target="_blank">
+          <a href="https://maps.app.goo.gl/DovBeciyF6ZF1M5T7" target="_blank">
             34/8 Central Studio Road,
             Dhanalakshmipuram,
             Singanallur,
