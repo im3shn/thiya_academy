@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Silver",
+    "imageSrc": "courses/project.png",
+    "description": [
+      "Basic Forex Details",
+      "MT4 and MT5 Tutorials",
+      "Limit and Stop Order Details",
+      "Basic Usage Details",
+      "Buy and Sell Order Details",
+      "How to Use a Basic Indicator and Robot"
+    ],
+    "skills": ["Basic"],
+    "price": "500",
+    "currency": "$"
+  },
+  {
+    "title": "Gold",
+    "imageSrc": "courses/project.png",
+    "description": [
+      "Includes Level I Details",
+      "GBPUSD Pair Strategy",
+      "Price Action Details",
+      "Central Pivot Range(CPR) Entry and Exit",
+      "Full Usage Details for Robot and Indicator",
+      "Trading Support"
+    ],
+    "skills": ["Intermediate"],
+    "price": "500",
+    "currency": "$"
+  },
+  {
+    "title": "Platinum",
+    "imageSrc": "courses/project.png",
+    "description": [
+      "Includes Level II Details",
+      "GBPUSD EA Live Account Running for 3 Months Free",
+      "XAUUSD Strategy",
+      "Breakout",
+      "Support and Resistance",
+      "XAUUSD EA Free with the Best Setting"
+    ],
+    "skills": ["Advanced"],
+    "price": "500",
+    "currency": "$"
+  }
+]
