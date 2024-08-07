@@ -9,20 +9,17 @@ export const Contact = () => {
     <>
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
         <img className={styles.logo} src={getImageUrl("contact/thiya_text_logo.png")} alt="Email icon" />
+        <p>Mallow is a leading app development company known for creating customized mobile and web applications. We deliver high-quality solutions that drive business growth, combining innovation, expertise, and exceptional user experiences.</p>
+        <p>&copy; {(new Date().getFullYear())} Thiya Academy.</p>
       </div>
+
+      <div className={styles.divs}>
+      <h3 className={styles.heading}>Our Services</h3>
+
       <ul className={styles.links}>
 
-        <a href={`mailto:${contacts.email}`}  className={styles.link}>
-          <li className={styles.link}>
-            <img className={styles.img} src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-            <p>{contacts.email}</p>
-          </li>
-        </a>
-
-        <a href={`https://wa.me/${contacts.phone}`} target="_blank" className={styles.link}>
+      <a href={`https://wa.me/${contacts.phone}`} target="_blank" className={styles.link}>
           <li className={styles.link}>
             <img className={styles.img}
                 src={getImageUrl("contact/whatsappicon.png")}
@@ -72,6 +69,30 @@ export const Contact = () => {
           </li>
         </a>
 
+        </ul>
+      </div>
+
+      <div className={styles.divs}>
+        <h3 className={styles.heading}>Contact</h3>
+        <ul className={styles.links}>
+
+        <a href={`mailto:${contacts.email}`}  className={styles.link}>
+          <li className={styles.link}>
+            <img className={styles.img} src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+            <p>{contacts.email}</p>
+          </li>
+        </a>
+
+        <a href={`tel:${contacts.phone}`} target="_blank" className={styles.link}>
+          <li className={styles.link}>
+            <img className={styles.img}
+                src={getImageUrl("contact/whatsappicon.png")}
+                alt="WhatsApp icon"
+              />
+            <p>{contacts.phone}</p>
+          </li>
+        </a>
+
         <a href={contacts.location.link} target="_blank" className={styles.link}>
           <li className={styles.link}>
             <img className={styles.img} src={getImageUrl("contact/mapsicon.png")} alt="Github icon" />
@@ -87,10 +108,10 @@ export const Contact = () => {
             </div>
           </li>
         </a>
-
       </ul>
+      </div>
+
     </footer>
-    <div className={styles.copyright}>Copyright &copy; {(new Date().getFullYear())} Thiya Academy. All Rights Reserved.</div>
     </>
   );
 };

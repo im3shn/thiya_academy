@@ -8,6 +8,7 @@ export const Navbar = () => {
   
   return (
     <nav className={styles.navbar}>
+      <div>
       <a className={styles.title} href="/">
       <img
         src={getImageUrl("nav/thiya_academy_logo.png")}
@@ -15,6 +16,8 @@ export const Navbar = () => {
         className={styles.navImg}
       />
       </a>
+      </div>
+      
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -31,16 +34,16 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#services">Services</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#about">About Us</a>
+            <a href="/courses">Courses</a>
           </li>
           <li>
-            <a href="#whyus">Why Us?</a>
+            <a href="/whyus">Why Us?</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>

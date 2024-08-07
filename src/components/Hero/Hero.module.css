@@ -25,12 +25,15 @@
   margin-bottom: 33px;
   font-family: var(--font-roboto);
   background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
+    180deg,
+    rgb(250, 250, 250) 50%,
+    rgba(58, 216, 5, 0.865) 50%
   );
+  /* background-color: var(--color-text); */
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  /* min-width: max-content; */
+
 }
 
 .description {
@@ -51,7 +54,7 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 40%;
   z-index: 1;
 
   animation-name: floating;

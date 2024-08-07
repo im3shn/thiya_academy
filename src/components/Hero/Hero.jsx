@@ -7,9 +7,9 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Stephen</h1>
+        <h1 className={styles.title}>Hi, We're Thiya Academy</h1>
         <p className={styles.description}>
-          I'm a professional trader with 5 years of experience in
+          I'm a professional trader with 7 years of experience in
           Forex Market. Reach out if you'd like to learn more!
         </p>
         <a href="https://wa.me/6383586388" target="_blank" className={styles.contactBtn}>
