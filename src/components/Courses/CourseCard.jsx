@@ -32,11 +32,11 @@ export const CourseCard = ({
           );
         })}
       </ul>
-      {/* <div className={styles.links}>
+      <div className={styles.links}>
         <a href={price} className={styles.link}>
           {currency}{price}
         </a>
-      </div> */}
+      </div>
     </div>
   );
 };

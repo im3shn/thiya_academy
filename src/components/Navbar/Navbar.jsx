@@ -10,7 +10,7 @@ export const Navbar = () => {
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
       <img
-        src={getImageUrl("nav/thiya-academy-high-resolution-logo-transparent.png")}
+        src={getImageUrl("nav/thiya_academy_logo.png")}
         alt="Thiya Academy"
         className={styles.navImg}
       />
@@ -34,7 +34,10 @@ export const Navbar = () => {
             <a href="#services">Services</a>
           </li>
           <li>
-            <a href="#courses">Courses</a>
+            <a href="#about">About Us</a>
+          </li>
+          <li>
+            <a href="#whyus">Why Us?</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

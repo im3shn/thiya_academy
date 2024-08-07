@@ -8,13 +8,6 @@
   padding-top: 61px;
   z-index: 2;
   margin: 0 10%;
-  transition: 0.3s;
-}
-
-.sticky-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 .title {
@@ -72,11 +65,11 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
+    background: rgb(25, 109, 46);
     background: linear-gradient(
       0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
+      rgba(25, 109, 39, 0.2) 0%,
+      rgb(25, 109, 29) 100%
     );
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
@@ -90,6 +83,6 @@
 
 
 .navImg {
-  width: 30%; /* Adjust the width of your logo image */
-  height: 10%;
+  width: 120px; /* Adjust the width of your logo image */
+  height: 100px;
 }
