@@ -10,11 +10,11 @@ export const Navbar = () => {
     <nav className={styles.navbar}>
       <div>
       <a className={styles.title} href="/">
-      <img
+      {/* <img
         src={getImageUrl("nav/thiya_academy_logo.png")}
         alt="Thiya Academy"
         className={styles.navImg}
-      />
+      /> */}Thiya Academy
       </a>
       </div>
       
@@ -43,7 +43,7 @@ export const Navbar = () => {
             <a href="/whyus">Why Us?</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

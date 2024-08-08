@@ -86,7 +86,7 @@ export const Contact = () => {
         <a href={`tel:${contacts.phone}`} target="_blank" className={styles.link}>
           <li className={styles.link}>
             <img className={styles.img}
-                src={getImageUrl("contact/whatsappicon.png")}
+                src={getImageUrl("contact/callIcon.png")}
                 alt="WhatsApp icon"
               />
             <p>{contacts.phone}</p>

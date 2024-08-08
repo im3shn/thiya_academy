@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import styles from "./App.module.css";
+// import styles from "./App.module.css";
 import "./index.css";
 import { Courses } from "./components/Courses/Courses";
 import { WhyUs } from "./components/WhyUs/WhyUs";

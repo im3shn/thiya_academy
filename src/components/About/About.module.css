@@ -20,7 +20,7 @@
 }
 
 .heading {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 55px;
   font-weight: 700;
   letter-spacing: 1.75px;
@@ -35,11 +35,7 @@
   margin-bottom: 23px;
   font-family: var(--font-roboto);
   text-align: left;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 100%,
-    rgba(255, 255, 255, 0) 120%
-  );
+  background: black;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
