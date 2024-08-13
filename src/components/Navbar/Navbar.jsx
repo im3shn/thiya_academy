@@ -38,10 +38,10 @@ export const Navbar = () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/courses">Courses</a>
+            <a href="#/courses">Courses</a>
           </li>
           <li>
-            <a href="/whyus">Why Us?</a>
+            <a href="#/whyus">Why Us?</a>
           </li>
           <li>
             <ScrollIntoView selector="#contact" className={styles.scrollIntoView}>
