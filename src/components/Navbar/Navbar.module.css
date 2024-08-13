@@ -1,23 +1,23 @@
 @import "../../vars.css";
+@import "@fontsource/space-grotesk";
 
 .navbar {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 100px;
+  /* padding-bottom: 100px; */
   z-index: 2;
-  margin: 0 10%;
-  transition: 0.3s;
-}
-
-.sticky-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
+  /* margin: 0 10%; */
+  background-color: var(--color-bg);
 }
 
 .title {
+  text-transform: uppercase;
+  font-style: italic;
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
@@ -35,20 +35,41 @@
 
 .menuItems {
   display: flex;
-  gap: 47px;
+  gap: 20px;
   list-style: none;
 }
 
 .menuItems a {
-  font-size: 25px;
+  /* font-family: cursive; */
+  text-transform: uppercase;
+  font-size: 16.5px;
+  font-weight: 600;
+  text-decoration: none;
   color: var(--color-text);
   text-decoration: none;
+}
+
+.name{
+  color: var(--color-text);
+  text-align: left;
+  text-transform: uppercase;
+  display: inline;
+  font-style: italic;
+  margin-top: 0%;
+  padding-top: 0%;
 }
 
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    background-color: black;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+
+  .title{
+    color: white;
   }
 
   .menu {
@@ -72,11 +93,11 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
+    background: rgb(25, 109, 46);
     background: linear-gradient(
       0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
+      rgba(25, 109, 39, 0.2) 0%,
+      rgb(25, 109, 29) 100%
     );
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
@@ -90,6 +111,6 @@
 
 
 .navImg {
-  width: 30%; /* Adjust the width of your logo image */
-  height: 10%;
+  width: 80px; /* Adjust the width of your logo image */
+  height: 70px;
 }

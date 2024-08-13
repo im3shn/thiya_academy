@@ -8,44 +8,46 @@ export const Services = () => {
     <section className={styles.container} id="services">
       <h2 className={styles.title}>Services</h2>
       <div className={styles.content}>
-        <img
+        {/* <img
           src={getImageUrl("services/servicesImage.png")}
           alt="Me sitting with a laptop"
           className={styles.servicesImage}
-        />
-        <ul className={styles.servicesItems}>
-          <li className={styles.servicesItem}>
+        /> */}
+        <div className={styles.servicesItems}>
+          <div className={styles.servicesItem}>
             <img className={styles.img} src={getImageUrl("services/tradingIcon.png")} alt="Cursor icon" />
             <div className={styles.servicesItemText}>
               <h3>Comprehensive Trading Courses</h3>
               <p>
               Learn everything from basic trading principles to advanced strategies. 
-              {/* Our courses are designed for all levels of traders, ensuring you gain the 
-              confidence and skills needed to trade effectively. */}
+              Our courses are designed for all levels of traders, ensuring you gain the 
+              confidence and skills needed to trade effectively.
               </p>
             </div>
-          </li>
-          <li className={styles.servicesItem}>
+          </div>
+          <div className={styles.servicesItem}>
             <img className={styles.img} src={getImageUrl("services/financialAdviseIcon.png")} alt="Server icon" />
             <div className={styles.servicesItemText}>
               <h3>Expert Financial Advice</h3>
+              {/* <br/> */}
               <p>
               Receive personalized financial advice from experienced traders and financial experts. 
-              {/* We help you make informed decisions and plan for a secure financial future. */}
+              We help you make informed decisions and plan for a secure financial future.
               </p>
             </div>
-          </li>
-          <li className={styles.servicesItem}>
+          </div>
+          <div className={styles.servicesItem}>
             <img className={styles.img} src={getImageUrl("services/supportIcon.png")} alt="UI icon" />
             <div className={styles.servicesItemText}>
               <h3>Ongoing Support</h3>
+              {/* <br/> */}
               <p>
-              {/* Our support team is always here to help you with any questions or challenges you may face.  */}
+              Our support team is always here to help you with any questions or challenges you may face. 
               From technical issues to trading tips, we've got you covered.
               </p>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </section>
   );

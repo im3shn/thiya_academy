@@ -8,22 +8,24 @@ export const CourseCard = ({
 }) => {
   return (
     <div className={styles.container}>
-      <img
-        src={getImageUrl(imageSrc)}
-        alt={`Image of ${title}`}
-        className={styles.image}
-      />
       <h3 className={styles.title}>{title}</h3>
-      <ul className={styles.description}>
-          {description.map((description, id) => {
-            return (
-              <li key={id} className={styles.description}>
-                {description}
-              </li>
-            );
-          })}
-      </ul>
-      <ul className={styles.skills}>
+      <div className={styles.content}>
+        <img
+          src={getImageUrl(imageSrc)}
+          alt={`Image of ${title}`}
+          className={styles.image}
+        />
+        <ul className={styles.description}>
+            {description.map((description, id) => {
+              return (
+                <li key={id} className={styles.description}>
+                  {description}
+                </li>
+              );
+            })}
+        </ul>
+      </div>
+      {/* <ul className={styles.skills}>
         {skills.map((skill, id) => {
           return (
             <li key={id} className={styles.skill}>
@@ -31,12 +33,12 @@ export const CourseCard = ({
             </li>
           );
         })}
-      </ul>
-      {/* <div className={styles.links}>
-        <a href={price} className={styles.link}>
-          {currency}{price}
-        </a>
-      </div> */}
+      </ul> */}
+      <div className={styles.links}>
+        <p className={styles.link}>
+          {currency} {price}
+        </p>
+      </div>
     </div>
   );
 };

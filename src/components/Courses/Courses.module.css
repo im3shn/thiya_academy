@@ -1,10 +1,9 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  padding: 50px;
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  /* background-color: rgb(149, 48, 48); */
 }
 
 .title {
@@ -12,15 +11,36 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .courses {
   margin-top: 37px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 50px;
   width: 100%;
+}
+
+@media screen and (max-width: 830px) {
+  .container{
+    padding: 0%;
+    padding-top: 5px;
+  }
+  .courses{
+    justify-content: left;
+    gap: 5px;
+    margin-top: 0%;
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }

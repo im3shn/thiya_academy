@@ -8,13 +8,16 @@ export const Navbar = () => {
   
   return (
     <nav className={styles.navbar}>
+      <div>
       <a className={styles.title} href="/">
-      <img
-        src={getImageUrl("nav/thiya-academy-high-resolution-logo-transparent.png")}
+      {/* <img
+        src={getImageUrl("nav/thiya_academy_logo.png")}
         alt="Thiya Academy"
         className={styles.navImg}
-      />
+      /> */}Thiya Academy
       </a>
+      </div>
+      
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -31,10 +34,13 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#services">Services</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#courses">Courses</a>
+            <a href="/courses">Courses</a>
+          </li>
+          <li>
+            <a href="/whyus">Why Us?</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

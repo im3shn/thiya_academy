@@ -2,10 +2,12 @@
 
 .container {
   position: relative;
-  background-color: rgb(238, 237, 237);
-  /* border-radius: 15px; */
+  background-color: rgb(255, 255, 255);
+  /* border-radius: 15p`x; */
   padding: 73px;
-  padding-bottom: 173px;
+  padding-left: 173px;
+  padding-right: 173px;
+
   /* margin-top: 129px; */
   /* margin-bottom: 129px; */
   z-index: 1;
@@ -27,18 +29,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: auto;
+  
+  /* max-width: 70%; */
 }
 
 .servicesImage {
-  width: 35%;
+  width: 55%;
   padding: auto;
 }
 
 .servicesItems {
   color: black;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 50px;
 }
 
@@ -49,12 +52,6 @@
   border-radius: 20px;
   list-style: none;
   padding: 25px;
-  background-color: rgb(228, 224, 224);
-  background-image: linear-gradient(
-    90deg,
-    rgba(1, 247, 18, 0.689) 100%,
-    rgba(207, 29, 29, 0) 100%
-  );
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 0.4s;
