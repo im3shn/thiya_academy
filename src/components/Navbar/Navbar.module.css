@@ -39,7 +39,7 @@
   list-style: none;
 }
 
-.menuItems a {
+.menuItems a, .menuItems .scrollIntoView {
   /* font-family: cursive; */
   text-transform: uppercase;
   font-size: 16.5px;
@@ -47,6 +47,10 @@
   text-decoration: none;
   color: var(--color-text);
   text-decoration: none;
+}
+
+.scrollIntoView:hover {
+  cursor: pointer;
 }
 
 .name{

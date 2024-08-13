@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import ScrollIntoView from 'react-scroll-into-view'
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -43,8 +44,10 @@ export const Navbar = () => {
             <a href="/whyus">Why Us?</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
-          </li>
+            <ScrollIntoView selector="#contact" className={styles.scrollIntoView}>
+                Contact
+            </ScrollIntoView>
+            </li>
         </ul>
       </div>
     </nav>

@@ -11,11 +11,11 @@ import "@fontsource/outfit";
 import "@fontsource/roboto";
 
 import {
-  createBrowserRouter,
   RouterProvider,
+  createHashRouter,
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App/>,
@@ -27,9 +27,6 @@ const router = createBrowserRouter([
   {
     path: "/whyus",
     element: <WhyUs/> ,
-  },{
-    path: "/contact",
-    element: <Contact/> ,
   }
 ]);
 
