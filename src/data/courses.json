@@ -1,47 +1,48 @@
 [
   {
-    "title": "Silver",
-    "imageSrc": "courses/project.png",
+    "title": "Basic",
+    "imageSrc": "courses/trading_beginner.png",
     "description": [
+      "What is Forex trading",
+      "Why Forex Trading",
       "Basic Forex Details",
-      "MT4 and MT5 Tutorials",
-      "Limit and Stop Order Details",
-      "Basic Usage Details",
+      "How to use Tools",
+      "Benefits of Forex Trading",
+      "MT4 and MT5 Use Details",
       "Buy and Sell Order Details",
+      "Limit and Stop Order Details",
       "How to Use a Basic Indicator and Robot"
     ],
-    "skills": ["Basic"],
-    "price": "500",
+    "price": "199",
     "currency": "$"
   },
   {
-    "title": "Gold",
-    "imageSrc": "courses/project.png",
+    "title": "Advanced",
+    "imageSrc": "courses/trading_advanced.png",
     "description": [
       "Includes Level I Details",
-      "GBPUSD Pair Strategy",
-      "Price Action Details",
-      "Central Pivot Range(CPR) Entry and Exit",
-      "Full Usage Details for Robot and Indicator",
-      "Trading Support"
+      "GBP/USD M30 Candlestick Strategy",
+      "Price Action Details and Strategy",
+      "Pivot Point",
+      "CPR Entry and Exit",
+      "Fibonacci strategy ",
+      "Full Usage Details for Robot and Indicator"
     ],
-    "skills": ["Intermediate"],
-    "price": "500",
+    "price": "299",
     "currency": "$"
   },
   {
-    "title": "Platinum",
-    "imageSrc": "courses/project.png",
+    "title": "Expert",
+    "imageSrc": "courses/trading_expert.png",
     "description": [
       "Includes Level II Details",
-      "GBPUSD EA Live Account Running for 3 Months Free",
-      "XAUUSD Strategy",
+      "Free 3 Months GBP/USD EA Live Account",
+      "XAU/USD Strategy",
       "Breakout",
       "Support and Resistance",
-      "XAUUSD EA Free with the Best Setting"
+      "Free XAU/USD EA with Best Setting"
     ],
-    "skills": ["Advanced"],
-    "price": "500",
+    "price": "499",
     "currency": "$"
   }
 ]

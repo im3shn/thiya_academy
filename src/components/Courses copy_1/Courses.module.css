@@ -1,0 +1,106 @@
+@import "../../vars.css";
+
+.container {
+  padding: 100px;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+  width: 100%;
+  font-size: 20px;
+  font-family: var(--font-roboto);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+tbody{
+  text-align: left;
+}
+
+th{
+  text-align: center;
+  padding: 15px;
+}
+
+tbody {
+  /* background-color: rgb(51, 204, 84); */
+  color: #000000; 
+  padding: 15px;
+}
+
+thead {
+	background-color: #333;
+	color: white;
+	/* font-size: 0.875rem; */
+	text-transform: uppercase;
+	letter-spacing: 10%;
+}
+
+td, .contact{
+  color: var(--color-text);
+  text-align: center;
+  padding: 15px;
+}
+
+.contact{
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+button{
+  padding: 10px;
+  background-color: rgb(50, 199, 50);
+  border-radius: 20%;
+  /* max-width: 120px; */
+}
+
+@media screen and (max-width: 830px) {
+
+  .container {
+    padding: 20px;
+    /* color: var(--color-text); */
+    /* background-color: rgb(255, 255, 255); */
+  }
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+      display: block;
+  }
+
+  thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+
+  tr {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+  }
+
+  td {
+      border: none;
+      position: relative;
+      padding-left: 50%;
+  }
+
+  td:before {
+      position: absolute;
+      left: 6px;
+      content: attr(data-label);
+      font-weight: bold;
+  }
+}
