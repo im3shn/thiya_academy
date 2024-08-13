@@ -10,7 +10,7 @@ export const Contact = () => {
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
         <img className={styles.logo} src={getImageUrl("contact/thiya_text_logo.png")} alt="Email icon" />
-        <p>Mallow is a leading app development company known for creating customized mobile and web applications. We deliver high-quality solutions that drive business growth, combining innovation, expertise, and exceptional user experiences.</p>
+        <p>Thiya Aademy is a leading forex academy known for delivering well tested and highly accurate courses. We deliver high-quality services that drive financial growth, combining innovation, expertise, and exceptional customer experiences.</p>
         <p>&copy; {(new Date().getFullYear())} Thiya Academy.</p>
       </div>
 
