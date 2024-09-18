@@ -5,6 +5,7 @@ import { getImageUrl } from "../../utils";
 
 export const Services = () => {
   return (
+        <>
     <section className={styles.container} id="services">
       <h2 className={styles.title}>Services</h2>
       <div className={styles.content}>
@@ -50,5 +51,5 @@ export const Services = () => {
         </div>
       </div>
     </section>
-  );
+  </>);
 };

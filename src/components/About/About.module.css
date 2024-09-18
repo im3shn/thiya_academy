@@ -9,6 +9,9 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  min-height: 100vh;
+  max-height: 100vh;
+  align-content: center;
 }
 
 .content {
@@ -20,8 +23,9 @@
 }
 
 .heading {
+  align-content: center;
   color: rgb(0, 0, 0);
-  font-size: 55px;
+  font-size: 3vw;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -30,7 +34,7 @@
 }
 
 .title {
-  font-size: 40px;
+  font-size: 3.5vw;
   font-weight: 900;
   margin-bottom: 23px;
   font-family: var(--font-roboto);
@@ -41,7 +45,7 @@
 }
 
 .description {
-  font-size: 20px;
+  font-size: 1.2vw;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
 }

@@ -14,6 +14,8 @@
   /* margin-bottom: 50px; */
   background-image: url("../../../assets/hero/background4.jpg");
   background-repeat: repeat;
+  min-height: 87vh;
+  align-content: center;
 }
 
 .content {
@@ -44,7 +46,7 @@
 
 .title {
   padding-top: 20px;
-  font-size: 72px;
+  font-size: 5vw;
   font-weight: 900;
   /* margin-bottom: 33px; */
   font-family: var(--font-roboto);
@@ -56,7 +58,7 @@
 
 .description {
   padding-top: 40px;
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 800;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
